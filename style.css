@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  background-color: blue;
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main {
+  width: 65%;
+  height: 550px;
+  background-color: brown;
+}
+
+.aside {
+  width: 15%;
+  height: 550px;
+  background-color: rgb(42, 81, 165);
+}
+.footer {
+  width: 100%;
+  background-color: blue;
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.texto {
+  font-size: 20px;
+  margin: 0;
+  padding: 12px;
+}
